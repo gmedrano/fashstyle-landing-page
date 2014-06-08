@@ -7594,7 +7594,18 @@ button.close {
     display: none !important;
   }
 }
+/* line 5, ../../stylesheets/styles.sass */
+.jumbotron {
+  min-height: 450px;
+}
 /* line 7, ../../stylesheets/styles.sass */
-body h1 {
-  color: orange;
+.jumbotron h1 {
+  color: black;
+}
+
+/* line 9, ../../stylesheets/styles.sass */
+footer {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #dddddd;
 }

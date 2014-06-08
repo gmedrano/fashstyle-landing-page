@@ -8,13 +8,15 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   %body
     %header{role: "banner"}
-      .action-link
-        %a{href: "#"} Blog
-    %section{role: "main"}
-      %article
-        %header
-          %h1= @title
-        = yield
-    %footer
-      %small
-      %p Copyrights 2014.
+      %div.container-fluid
+      %nav.navbar.navbar-default{role: "navigation"}
+        %div.container-fluid
+          %ul.nav.navbar-nav.navbar-right
+            %li
+              %a{ href: "#" } Blog
+    %section
+      = yield
+    %footer.container-fluid
+      .container
+        %small
+        %p Copyrights 2014.
