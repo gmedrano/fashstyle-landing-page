@@ -5,6 +5,8 @@ gem 'serve', '1.5.2'
 # TryStatic
 gem 'rack-contrib'
 
+gem 'bootstrap-sass'
+
 # Use edge instead:
 # gem 'serve', :git => 'git://github.com/jlong/serve.git'
 
